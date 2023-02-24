@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import ExpenseItem from './components/ExpenseItem';
 
 function App() {
@@ -35,16 +35,32 @@ function App() {
         amount={Expenses[3].amount}
         date={Expenses[3].date}
         LocationOfExpenditure={Expenses[3].LocationOfExpenditure}
-        ></ExpenseItem>
+        ></ExpenseItem> 
 
-        {/* <ExpenseItem>{Expenses.map((Expenses, i) => < Expenses obj={Expenses} key={i} />)}</ExpenseItem> */}
-        {/* {Expenses.map((expense) => (
-          <li key={expense.id}>{expense}</li>
-        ))} */}
-        
+       
       </header>
     </div>
   );
 }
+
+//   return (
+//     <div>
+//       <ExpenseItem></ExpenseItem>
+//       {Expenses.map(expense => {
+//         return (
+//           <div key={expense.id}>
+//             <h2>title: {expense.title}</h2>
+//             <h2>amount: {expense.amount}</h2>
+//             <h2>date: {expense.date}</h2>
+//             <h2>LocationOfExpenditure: {expense.LocationOfExpenditure}</h2>
+
+//             <hr />
+//           </div>
+//         );
+//       })}
+//     </div>
+//   );
+// }
+
 
 export default App;
