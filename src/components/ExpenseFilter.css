@@ -1,0 +1,23 @@
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;
+  }
+  .filter__title {
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+  }
+  /* .filter__option {
+    height: 0.5rem;
+    width: 1rem;
+  } */
+  #options {
+    padding: 0.5rem;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid grey;
+  }
