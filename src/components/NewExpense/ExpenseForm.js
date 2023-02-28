@@ -42,6 +42,7 @@ const ExpenseForm=(props)=>{
                 <input type='date' min='2019-01-01' max='2023-01-30' onChange={DateChangeHandler} value={updatedDate}/>
            </div>
            <div className="new-expense__actions">
+           <button type = "button" onClick = {props.cancelHandler}>Cancel</button>
             <button type="submit">Add Expense</button>
         </div>
         </div>
