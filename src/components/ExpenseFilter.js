@@ -10,7 +10,7 @@ export default function ExpenseFilter(props) {
   return (
     <div className="filter">
       <div className="filter__title">
-        <h3>filter by year</h3>
+        <h3>Filter By Year</h3>
       </div>
       <div className="filter__option">
         <select
